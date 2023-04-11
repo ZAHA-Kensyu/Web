@@ -1,0 +1,52 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ header{
+     background-color: rgba(255, 255, 255, 0.75);
+     top:0;
+     left:0;
+     width: 100%;
+ }
+ 
+ .nav:hover{
+    text-decoration:underline;
+ }
+
+ nav{
+     display: flex;
+     justify-content: left;
+     padding-left: 10px;
+     padding-right: 10px;
+ }
+ 
+ nav ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ nav li{
+     background-image: url("../images/fream.png");
+     background-size: 100% 100%;
+     border:1px solid;
+     width : 160px;
+     height: 60px;
+     float :left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px;
+ }
+ 
+ nav a{
+     text-decoration: none;
+ }
+
+ .profile {
+    text-align: center;
+    margin: 0 auto;
+}
